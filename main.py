@@ -85,20 +85,47 @@
 # for idx, color in enumerate(colors):
 #     print( idx, color )
 
-scores = [
-    {
-        # 'name': 'name of the player',
-        'name': 'Kaitlin',
-        'points': 25  # points the player scored
-    }
-]
+# scores = [
+#     {
+#         # 'name': 'name of the player',
+#         'name': 'Kaitlin',
+#         'points': 25  # points the player scored
+#     }
+# ]
 
-scores.append({
-    'name': 'Jim', 
-    'points': '15'
-    })
+# scores.append({
+#     'name': 'Jim', 
+#     'points': '15'
+#     })
 
-print(scores)
+# print(scores)
 
-for score in scores:
-    print( f"{score['name']} scored {score['points']} points." )
+# for score in scores:
+#     print( f"{score['name']} scored {score['points']} points." )
+
+# nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# squares = []
+# for n in nums:
+#   squares.append(n * n)
+
+# let's replace with this
+# squares = [n * n for n in nums]
+#     print(squares)
+# even_squares = [n * n for n in nums if (n * n) % 2 == 0]
+#     print(even_squares)
+
+# colors = ('red', 'green', 'blue')
+# print(colors)
+
+# short_name = 'Alexandria'[3]
+# short_name = 'Alexandria'[0:4]
+# print(short_name)
+
+# colors = ('red', 'green', 'blue')
+# print( colors[:2])
+# print( colors[1:])
+
+chars = ['a', 'b', 'x', 'y', 'd']
+chars[2:4] = 'c'
+print(chars)
